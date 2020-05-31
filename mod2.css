@@ -1,3 +1,45 @@
-h1{
-text-align: centre; 
+.c_align{
+	text-align: center;
+}
+p{
+	text-align: left;
+	padding: 5px;
+	clear: right;
+}
+.gray_c{
+ background-color: gray;
+}
+.pink_c{
+	background-color: pink;
+	width: 33.33%;
+	float:right;
+}
+.red_c{
+	background-color: red;
+	width: 33.33%;float: right;
+}
+.yellow_c{
+	background-color: yellow;
+	width: 33.33%;float: right;
+}
+.mar{
+   margin: 10px;
+}
+.sushi{
+	font-family: Times New Roman Georgia;
+}
+@media (min-width: 991px) {
+	div{
+		width: 30%;
+		float: left;
+		}
+	}
+@media (min-width: 768px) and (max-width: 990px) {
+	div{
+		width: 45%;
+		float: left;
+	}
+	div.sushi{
+		width: 95%;
+	}
 }
